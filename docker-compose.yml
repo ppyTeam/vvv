@@ -6,7 +6,5 @@ services:
     container_name: vvv
     build: .
     restart: always
-    environment:
-      - vname=2ra
     ports:
       - "127.0.0.1:13389:13389"
