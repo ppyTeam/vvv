@@ -9,7 +9,7 @@ RUN apk update \
   && apk add --no-cache ca-certificates wget unzip \
   && mkdir -p /app/ \
   && cd /app/ \
-  && wget https://github.com/v${vname}/v${vname}y-core/releases/latest/download/v${vname}y-linux-64.zip -O vvv.zip \
+  && wget https://github.com/v${vname}y/v${vname}y-core/releases/latest/download/v${vname}y-linux-64.zip -O vvv.zip \
   && unzip vvv.zip \
   && rm -rf vvv.zip \
   && ln -s v${vname}y vvv
